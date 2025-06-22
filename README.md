@@ -29,7 +29,7 @@
 SELECT DISTINCT company FROM MANUFACTURER;
 ```
 
-2. Агрегатные функции
+## **2. Агрегатные функции**
 
 Применение функций COUNT, MIN, MAX, AVG для вычисления количества, минимального, максимального и среднего значений.
 
@@ -38,7 +38,7 @@ SELECT DISTINCT company FROM MANUFACTURER;
 SELECT COUNT(DISTINCT company) FROM MANUFACTURER;
 ```
 
-3.Фильтрация данных
+## **3.Фильтрация данных**
 
 Использование WHERE для отбора записей по условию, включая операторы LIKE для поиска по шаблону.
 
@@ -47,7 +47,7 @@ SELECT COUNT(DISTINCT company) FROM MANUFACTURER;
 SELECT DISTINCT company FROM MANUFACTURER WHERE company LIKE 'A%' OR company LIKE 'B%';
 ```
 
-4.Сортировка результатов
+## **4.Сортировка результатов**
 
 Применение ORDER BY для сортировки данных в алфавитном или числовом порядке.
 
@@ -56,7 +56,7 @@ SELECT DISTINCT company FROM MANUFACTURER WHERE company LIKE 'A%' OR company LIK
 SELECT DISTINCT company FROM MANUFACTURER ORDER BY company ASC;
 ```
 
-5.Операции с множествами
+## **5.Операции с множествами**
 
 Использование EXCEPT для вычитания одного набора данных из другого.
 
@@ -67,7 +67,7 @@ EXCEPT
 SELECT WARE FROM MATERIAL;
 ```
 
-6.Подзапросы
+## **6.Подзапросы**
 
 Выполнение вложенных запросов для вычисления промежуточных результатов, например, для расчёта дисперсии.
 
@@ -80,12 +80,18 @@ FROM PRODUCT
 WHERE ware = 'Meat';
 ```
 
-7.Округление чисел
+## **7.Округление чисел**
 
 Использование функции ROUND для округления результатов до заданного количества знаков после запятой.
 
-8.Работа с соединениями таблиц (неявно)
+## **8.Работа с соединениями таблиц**
 
 Понимание связей между таблицами (например, CATEGORY, MANUFACTURER, PRODUCT, MATERIAL) для корректного составления запросов.
 
 </details>
+
+<details>
+<summary>
+2 пак задач
+</summary>
+
