@@ -1,0 +1,1 @@
+SELECT DISTINCT company FROM MANUFACTURER WHERE company LIKE 'A%' OR company LIKE 'B%' ORDER BY company ASC;
