@@ -1,6 +1,6 @@
 # Аналитика SQL
 ## Использованное ПО для SQL
-Для начала хочу сказать что используется  SQL lite [на данное платформе](https://sqliteonline.com/)
+Для начала хочу сказать что используется  SQL Lite [на данное платформе](https://sqliteonline.com/)
 
 А также [данное приложение для Windows](https://sqlitebrowser.org/dl/)
 
